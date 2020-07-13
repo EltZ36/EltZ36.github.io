@@ -1,1 +1,13 @@
-
+img {
+  width: 400px;
+  height: 200px;
+}
+header{
+  text-align:center;
+}
+body {
+  text-align: left;
+}
+html{
+  font-family: "Serif", sans-serif;
+}
