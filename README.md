@@ -1,2 +1,2 @@
 # prophetorpheus.github.io
-Personal Website created from the Hack Club tutorial
+A simple website created from the Hack Club tutorial
