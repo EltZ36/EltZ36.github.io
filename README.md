@@ -1,2 +1,2 @@
-# prophetorpheus.github.io
+# Simple/Personal website
 The beginnings of a personal website.
