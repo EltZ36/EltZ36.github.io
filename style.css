@@ -2,8 +2,23 @@ img {
   width: 400px;
   height: 200px;
 }
-header{
-  text-align:center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BBB3B1;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 body {
   text-align: left;
