@@ -4,23 +4,34 @@ nav{
 
 li{
   list-style-type: none;
+  /* vw is the width of the viewport*/
+  margin: 0 2vw;
+  font-size: 125%;
 }
 
 ul{
   margin: 0;
   padding: 0;
+  display:flex;
 }
 
 a{
  text-decoration: none;
+ color: #B0B0B0;
+ font-family: "Serif", sans-serif;
+}
+
+a:hover{
+  background-color: #99ffcc;
 }
 
 body {
   text-align: left;
   background: linear-gradient(#4da6ff,#99ccff, #e6f2ff);
   background-attachment: fixed;
+  margin: 0;
 }
 html{
   font-family: "Serif", sans-serif;
-  font-size: 100%
+  font-size: 90%
 }
