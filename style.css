@@ -2,24 +2,11 @@ img {
   width: 400px;
   height: 200px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #BBB3B1;
-}
+
 li {
-  float: left;
+  list-style-type:none;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 body {
   text-align: left;
   background: linear-gradient(#4da6ff,#99ccff, #e6f2ff);
