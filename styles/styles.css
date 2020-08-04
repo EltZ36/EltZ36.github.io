@@ -23,6 +23,13 @@ li a{
   color: #48484d;
   background-color: #2ae2e8;
   padding: 10px 10px 10px 10px;
+}
+
+a{
+ text-decoration: none;
+ color: #B0B0B0;
+ font-family: 'PT Serif', sans-serif;
+ border: 2px solid black;
  }
 
 a:hover{
