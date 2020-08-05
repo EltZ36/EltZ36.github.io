@@ -25,16 +25,23 @@ li a{
   padding: 10px 10px 10px 10px;
 }
 
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 125%;
+}
+
 a{
- text-decoration: none;
- color: #B0B0B0;
- font-family: 'PT Serif', sans-serif;
- border: 2px solid black;
+  text-decoration: none;
+  color: #48484d;
+  background-color: #2ae2e8;
+  padding: 10px 10px 10px 10px;
  }
 
 a:hover{
  background-color: #e8592a;
 }
+
 
 body {
   text-align: center;
@@ -63,6 +70,9 @@ h1{
   color: #000000;
 }
 
+body{
+  font-size: 20px;
+}
 html, body{
   font-family: 'Oxygen', sans-serif;
   margin: 20px;
