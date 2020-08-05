@@ -1,2 +1,2 @@
 # Simple/Personal website
-The beginnings of a personal website.
+This is my personal website and is one of the first websites I have created.
