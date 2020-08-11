@@ -1,14 +1,14 @@
-.Home{
-  display: flex; 
+img{
+  display: flex;
   margin: 0px;
 }
 
 nav{
- width: 10vw;
+ text-align: left;
+ /*width: 10vw;*/
 }
 
 ul{
-  display:flex;
   padding: 10px 10px 10px 10px;
 }
 
