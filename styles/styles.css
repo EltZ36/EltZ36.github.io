@@ -18,12 +18,16 @@ li{
   font-size: 125%;
 }
 
-a{
+li a{
   text-decoration: none;
   color: #48484d;
   background-color: #2ae2e8;
   padding: 10px 10px 10px 10px;
  }
+
+a:hover{
+ background-color: #e8592a;
+}
 
 body {
   text-align: center;
