@@ -1,5 +1,8 @@
 img{
   display: flex;
+  flex-flow: row wrap;
+  flex: 200px;
+  justify-content: space-around;
   margin: 0px;
 }
 
