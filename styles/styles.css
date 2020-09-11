@@ -1,16 +1,15 @@
 img{
   display: flex;
+  margin:left;
   flex-flow: row wrap;
   flex: 200px;
   justify-content: space-around;
-  margin: 0px;
   image-rendering: auto;
 }
 
 nav{
  text-align: left;
  position: fixed;
- display: flex;
  float:right;
  top: 0;
  width: 100%;
@@ -54,6 +53,10 @@ a:hover{
 body {
   text-align: center;
   font-size: 20px;
+}
+
+.Photo img{
+  margin: auto;
 }
 
 main{
