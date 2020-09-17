@@ -24,6 +24,10 @@ a:hover{
   background-color:#e8592a;
 }
 
+a:visited{
+  background-color:#e1951e;
+}
+
 .Social_links{
   margin: 5px;
 }

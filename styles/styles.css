@@ -55,6 +55,10 @@ a:hover{
  background-color: #e8592a;
 }
 
+a:visted{
+  background-color: #e1951e;
+}
+
 
 body {
   text-align: center;
@@ -63,6 +67,7 @@ body {
 
 .Photo img{
   margin: auto;
+  border: 2px inset #E1951E;
 }
 
 main{
