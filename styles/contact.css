@@ -20,12 +20,12 @@ a{
   background-color: #2ae2e8;
  }
 
-a:hover{
-  background-color:#e8592a;
-}
-
 a:visited{
   background-color:#e1951e;
+}
+
+a:hover{
+  background-color:#e8592a;
 }
 
 .Social_links{

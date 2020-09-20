@@ -44,6 +44,7 @@ li{
   font-size: 125%;
 }
 
+
 a{
   text-decoration: none;
   color: #48484d;
@@ -51,12 +52,15 @@ a{
   padding: 10px 10px 10px 10px;
  }
 
-a:hover{
- background-color: #e8592a;
+a:link{
+  background-color:#2ae2e8;
 }
-
 a:visited{
   background-color: #e1951e;
+}
+
+a:hover{
+ background-color: #e8592a;
 }
 
 
@@ -95,6 +99,7 @@ h1{
 body{
   font-size: 20px;
 }
+
 html, body{
   font-family: 'Oxygen', sans-serif;
   margin: 20px;
