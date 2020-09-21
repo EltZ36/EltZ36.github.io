@@ -1,8 +1,6 @@
-nav{
- width: 100vw;
-}
-
 li{
+  width: 100vw;
+  height: 5px;
   list-style-type: none;
   margin: 0 2vw;
   font-size: 125%;
@@ -30,6 +28,10 @@ a:hover{
 
 .Social_links{
   margin: 5px;
+}
+
+.Github, .LinkedIn{
+  padding: 5px 5px 5px 5px;
 }
 
 main{
