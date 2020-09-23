@@ -1,3 +1,4 @@
-function greeting(){
-	alert('hello there!');
+function littleGame(){
+	console.log("Successfully logged in.")
 }
+littleGame();
