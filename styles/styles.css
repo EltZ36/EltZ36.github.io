@@ -5,7 +5,6 @@ header{
 
 img{
   display: flex;
-  margin:left;
   flex-flow: row wrap;
   flex: 200px;
   justify-content: space-around;
@@ -98,10 +97,6 @@ main{
 
 h1{
   color: #000000;
-}
-
-body{
-  font-size: 20px;
 }
 
 html, body{
