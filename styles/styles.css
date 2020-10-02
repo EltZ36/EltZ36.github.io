@@ -7,7 +7,7 @@ img{
   display: flex;
   flex-flow: row wrap;
   flex: 200px;
-  justify-content: space-around;
+  justify-content: space-between;
   image-rendering: auto;
 }
 
@@ -89,6 +89,7 @@ main{
 
 .Projects p{
   padding: 10px 10px 10px 10px;
+  display: inline-block;
 }
 
 .About_title, .Hackathon_title, .Project_titles, .Experience_title{
