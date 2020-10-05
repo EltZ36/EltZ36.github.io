@@ -11,6 +11,10 @@ img{
   image-rendering: auto;
 }
 
+.mobileIcon{
+  cursor: pointer;
+}
+
 nav{
  display: inline-flex;
  text-align: left;
@@ -105,3 +109,19 @@ html, body{
   margin: 20px;
   color: #48484d;
 }
+
+/*
+@media screen and (max-width: 767px){
+  .navi{
+    display:none;
+  }
+
+  .navi.show{
+     display: flex;
+  }
+
+  .mobileIcon{
+    display: block;
+  }
+}
+*/
