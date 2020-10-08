@@ -5,11 +5,14 @@ header{
 
 img{
   display: flex;
-  margin:left;
   flex-flow: row wrap;
   flex: 200px;
-  justify-content: space-around;
+  justify-content: space-between;
   image-rendering: auto;
+}
+
+.mobileIcon{
+  cursor: pointer;
 }
 
 nav{
@@ -37,13 +40,6 @@ li a{
   background-color: #2ae2e8;
   padding: 10px 10px 10px 10px;
 }
-
-li{
-  list-style-type: none;
-  margin: 0 2vw;
-  font-size: 125%;
-}
-
 
 a{
   text-decoration: none;
@@ -80,12 +76,17 @@ main{
  }
 
 .Hackathon_Projects a{
-  margin: 15px;
+  margin: 10px;
   padding: 20px 20px 20px 20px;
 }
 
 .About, .Projects, .Hackathon_Projects, .Experience{
   padding: 10px 20px 0px 20px;
+}
+
+.Projects p{
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
 }
 
 .About_title, .Hackathon_title, .Project_titles, .Experience_title{
@@ -96,12 +97,23 @@ h1{
   color: #000000;
 }
 
-body{
-  font-size: 20px;
-}
-
 html, body{
   font-family: 'Oxygen', sans-serif;
   margin: 20px;
   color: #48484d;
+}
+
+
+@media screen and (max-width: 700px){
+  .navi{
+    display:none;
+  }
+
+  .navi.show{
+     display: flex;
+  }
+
+  .mobileIcon{
+    display: block;
+  }
 }
