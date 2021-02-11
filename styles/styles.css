@@ -46,6 +46,7 @@ a{
   color: #48484d;
   background-color: #2ae2e8;
   padding: 10px 10px 10px 10px;
+  transition-duration: 0.5s;
  }
 
 a:link{
