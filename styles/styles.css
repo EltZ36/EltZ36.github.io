@@ -11,9 +11,10 @@ img{
   image-rendering: auto;
 }
 
+/*
 .mobileIcon{
   cursor: pointer;
-}
+}*/
 
 nav{
  display: inline-flex;
@@ -104,7 +105,7 @@ html, body{
   color: #48484d;
 }
 
-
+/*
 @media screen and (max-width: 700px){
   .navi{
     display:none;
@@ -118,3 +119,4 @@ html, body{
     display: block;
   }
 }
+*/
