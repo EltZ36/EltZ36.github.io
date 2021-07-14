@@ -87,6 +87,14 @@ main{
   display: inline-block;
 }
 
+.Experience p{
+  padding:  10px 10px 10px 10px;
+}
+
+.Experience a{
+  padding: 10px 10px 10px 10px;
+}
+
 .About_title, .Hackathon_title, .Project_titles, .Experience_title{
   color:#000000;
 }
