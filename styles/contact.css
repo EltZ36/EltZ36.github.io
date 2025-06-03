@@ -1,4 +1,4 @@
-li{
+li {
   width: 100vw;
   height: 5px;
   list-style-type: none;
@@ -6,47 +6,48 @@ li{
   font-size: 125%;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0px 5px 5px 5px;
-  display:flex;
+  display: flex;
 }
 
-a{
+a {
   text-decoration: none;
   color: #48484d;
-  background-color: #2ae2e8;
+  background-color: gray;
   transition-duration: 0.5s;
 }
 
-a:visited{
-  background-color:#e1951e;
+a:visited {
+  background-color: #e1951e;
 }
 
-a:hover{
-  background-color:#e8592a;
+a:hover {
+  background-color: #e8592a;
 }
 
-.Social_links{
+.Social_links {
   margin: 5px;
 }
 
-.Github, .LinkedIn{
+.Github,
+.LinkedIn {
   padding: 5px 5px 5px 5px;
 }
 
-main{
+main {
   color: #000000;
   padding: 10px 10px 10px 10px;
   margin: 25px;
 }
 
-body{
+body {
   text-align: left;
   font-size: 20px;
 }
 
-html{
+html {
   font-family: 'Oxygen', sans-serif;
   margin: 20px;
 }

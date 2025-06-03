@@ -1,9 +1,9 @@
-header{
+header {
   padding: 10px 10px 15px 10px;
   margin: 2px;
 }
 
-img{
+img {
   display: flex;
   flex-flow: row wrap;
   flex: 200px;
@@ -16,45 +16,47 @@ img{
   cursor: pointer;
 }*/
 
-nav{
- display: inline-flex;
- text-align: left;
- position: fixed;
- float:right;
- top: 0;
- width: 100%;
+nav {
+  display: inline-flex;
+  position: fixed;
+  float: right;
+  align-content: flex-end;
+  top: 0;
+  left: 1500px;
+  width: 100%;
 }
 
-li{
+li {
   list-style-type: none;
   margin: 10px;
   font-size: 125%;
 }
 
-li a{
+li a {
   text-decoration: none;
   color: #48484d;
-  background-color: #2ae2e8;
+  background-color: gray;
   padding: 10px 10px 10px 10px;
 }
 
-a{
+a {
   text-decoration: none;
   color: #48484d;
-  background-color: #2ae2e8;
+  background-color: white;
   padding: 10px 10px 10px 10px;
   transition-duration: 0.5s;
- }
-
-a:link{
-  background-color:#2ae2e8;
 }
-a:visited{
+
+a:link {
+  background-color: gray;
+}
+
+a:visited {
   background-color: #e1951e;
 }
 
-a:hover{
- background-color: #e8592a;
+a:hover {
+  background-color: #e8592a;
 }
 
 
@@ -63,47 +65,64 @@ body {
   font-size: 20px;
 }
 
-.Photo img{
+.Photo img {
   margin: auto;
   border: 2px inset #E1951E;
 }
 
-main{
- margin:3px;
- padding: 0 10px 0 10px;
- }
+main {
+  margin: 3px;
+  padding: 0 10px 0 10px;
+}
 
-.Hackathon_Projects a{
+.Hackathon_Projects a {
   margin: 10px;
   padding: 20px 20px 20px 20px;
 }
 
-.About, .Projects, .Hackathon_Projects, .Experience{
+.About,
+.Projects,
+.Hackathon_Projects,
+.Experience {
   padding: 10px 20px 0px 20px;
 }
 
-.Projects p{
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12em;
+  padding-right: 12em;
+  text-align: justify;
+  display: grid;
+  justify-content: center;
+}
+
+.Experience p {
   padding: 10px 10px 10px 10px;
-  display: inline-block;
 }
 
-.Experience p{
-  padding:  10px 10px 10px 10px;
-}
-
-.Experience a{
+.Experience a {
   padding: 10px 10px 10px 10px;
 }
 
-.About_title, .Hackathon_title, .Project_titles, .Experience_title{
-  color:#000000;
-}
-
-h1{
+.About_title,
+.Hackathon_title,
+.Project_titles,
+.Experience_title {
   color: #000000;
 }
 
-html, body{
+h1 {
+  color: #000000;
+}
+
+ul {
+  overflow: hidden;
+  padding-left: 0px;
+}
+
+html,
+body {
   font-family: 'Oxygen', sans-serif;
   margin: 20px;
   color: #48484d;
