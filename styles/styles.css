@@ -66,16 +66,26 @@ body {
   font-size: 20px;
 }
 
+.Photo a {
+  border: 0px;
+  background-color: transparent;
+  padding: 0px;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Photo a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .Photo img {
   margin: 0 auto;
   border: 2px inset #e1951e;
-}
-
-.Photo a {
-  border: 0px;
-  background-color: none;
-  padding: 0px;
-  display: inline-block;
+  width: 40%;
+  height: auto;
 }
 
 main {
