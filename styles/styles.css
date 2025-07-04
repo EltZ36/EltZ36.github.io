@@ -20,9 +20,10 @@ nav {
   display: inline-flex;
   position: fixed;
   float: right;
-  align-content: flex-end;
+  align-content: initial;
+  overflow: hidden;
   top: 0;
-  left: 1500px;
+  left: 2150px;
   width: 100%;
 }
 
@@ -60,15 +61,21 @@ a:hover {
   background-color: #e8592a;
 }
 
-
 body {
   text-align: center;
   font-size: 20px;
 }
 
 .Photo img {
-  margin: auto;
-  border: 2px inset #E1951E;
+  margin: 0 auto;
+  border: 2px inset #e1951e;
+}
+
+.Photo a {
+  border: 0px;
+  background-color: none;
+  padding: 0px;
+  display: inline-block;
 }
 
 main {
@@ -128,7 +135,7 @@ ul {
 
 html,
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   margin: 20px;
   color: #48484d;
   scroll-behavior: smooth;
